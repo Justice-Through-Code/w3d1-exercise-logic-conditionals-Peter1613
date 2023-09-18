@@ -30,18 +30,7 @@ def stock_purchases():
     if apple:
         amount_shares = amount_invest//apple
         print(f"{name} has ${amount_invest} to invest and can buy {amount_shares} shares of Apple at the current price of $100.")
-    # elif apple:
-        # amount_shares = amount_invest//apple
-        # print(f"{name} has ${amount_invest} to invest and can buy {amount_shares} shares of Apple at the current price of $100.")
-    # elif stock_name == Facebook:
-        # amount_shares = amount_invest//fb
-        # print(f"{name} has ${amount_invest} to invest and can buy {amount_shares} shares of Facebook at the current price of $250.")
-    # elif stock_name == Google:
-        # amount_shares = amount_invest//google
-        # print(f"{name} has ${amount_invest} to invest and can buy {amount_shares} shares of Google at the current price of $1400.")
-    # elif stock_name == Microsoft:
-        # amount_shares = amount_invest//msft
-        # print(f"{name} has ${amount_invest} to invest and can buy {amount_shares} shares of Microsoft at the current price of $200.")
+ 
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
     # Use an f-string to print the result for the client, ala:
     # Alex has $5000 to invest and can buy 50 shares of Apple at the current price of $100.
